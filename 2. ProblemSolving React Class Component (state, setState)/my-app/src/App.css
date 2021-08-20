@@ -1,0 +1,44 @@
+.butt{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: rgb(162, 231, 122); 
+  font-size: 16px;
+  margin: 4px 2px;
+  color: black; 
+  border: 2px solid #8899af;
+}
+
+.butt:hover {
+  background-color: #4CAF50; 
+  color: white;
+}
+
+.butt1{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: rgb(211, 223, 209); 
+  font-size: 16px;
+  margin: 4px 2px;
+  color: black; 
+  border: 5px solid #4cb6d6;
+}
+
+
