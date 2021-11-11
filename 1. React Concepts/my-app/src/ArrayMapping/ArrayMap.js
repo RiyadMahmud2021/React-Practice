@@ -17,4 +17,4 @@ const ArrayMap = () => {
     );
 }
 
-export default ArrayMap;    
+export default ArrayMap;     
