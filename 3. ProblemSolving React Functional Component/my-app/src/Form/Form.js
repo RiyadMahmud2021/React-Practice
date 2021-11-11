@@ -12,7 +12,7 @@ const Form = () => {
     // 2nd Work: Creating State , For this creating constructor, calling super method, state object or property:End
 
     // 3rd Work: Creating listener for state changing functions:Start 
-    const handleNameChange = (e) =>{
+    const handleNameChange = (e) =>{ 
         setName(e.target.value); 
     }  
     const handlePhoneChange = (e) =>{       
@@ -21,9 +21,9 @@ const Form = () => {
     const handlePWChange = (e) =>{    
         setPW(e.target.value.substr(0,10));
     }
-    const handleSubmit = (e) =>{
-        alert( "Congratulation "+ Name + "," +" your form is submitted")
-        e.preventDefault(); 
+    const handleSubmit = (e) =>{  
+        alert( "Congratulation "+ Name + "," +" your form is submitted"); 
+        e.preventDefault();                                                                           
         document.write("Your Name:" + Name + "<br>" + "Phone No:" + Phone);  {/* Note: "break" tag syntax is different in different situation */}
 
         document.write("<br>");  {/* Note: "break" tag syntax is different in different situation */}
@@ -33,9 +33,9 @@ const Form = () => {
         var userInfo = { // object creation for keeping all information of a person in a object
             Name: Name,
             Phone: Phone,
-            Password: PW,
+            Password: PW, 
         }
-       console.log(userInfo);
+       console.log(userInfo);   
 
     }
     // 3rd Work: Creating listener's state changing functions:End 

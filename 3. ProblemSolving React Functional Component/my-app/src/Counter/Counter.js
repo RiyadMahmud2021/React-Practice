@@ -5,8 +5,9 @@
 import React, { Fragment ,useState } from 'react';
 
 const Counter = () => {
-    const [count,setCount] = useState(0) // Here, it is Array Distructuring
-                    // Where you will use hooks???
+    const [count,setCount] = useState(0) // useState is a hook whitch returns two valur. A "state" and a "state changing function"
+                        // Here, it is Array Distructuring
+                        // Where you will use hooks???
                         //-> only call hook at the top level
                         //-> don't call inside loop,conditions or nested function 
                         //-> only call hooks from React Functions

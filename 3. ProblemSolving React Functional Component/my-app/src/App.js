@@ -1,18 +1,17 @@
 import React from 'react';
 import './App.css';
-import Counter from './components/Counter';
-import Counter1 from './components/Counter1';
-import Counter2 from './components/Counter2';
+import Counter from  './Counter/Counter';
+import Counter1 from './Counter/Counter1';
+import Counter2 from './Counter/Counter2';
 import Form from './Form/Form';
 import Form1 from './Form/Form1';
 import Form2 from './Form/Form2';
 import Form3 from './Form/Form3';
 import Form4 from './Form/Form4';
-import RandomNumberInArray from './components/RandomNumberInArray';
+import RandomNumberInArray from './NumberRelated/RandomNumberInArray'; 
 
 function App() {  
  
-//
   return (
     <div className="App">
       

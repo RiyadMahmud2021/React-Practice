@@ -10,15 +10,16 @@ const Form3 = () => {
     const [user,setUser] = useState({Name:'', Email:'', PW:''}) // array distructuring
                             // Here 'user' is the state name,
                             // 'Name', 'Email', 'PW' is the object name property not object.
-                            // Here object name is implicated...... State's property are setted with object
+                            // Here object name is implicated...... 
+                            // State's property are setted with object
                             // So object property are state's property 
 
-    const {Name, Email , PW} = user  //distucturing
+    const {Name, Email , PW} = user  //distucturing 
                             
- 
+                                                                                        
     const handleChange = (e) => {
         setUser({...user, [e.target.name]: e.target.value}); // ... spread operator.
-                    // Think for this line, why and when need to use [] and not []
+                    // Think this line, why and when need to use [] and not []
                                              // Here, its needed for add or merge object properties
                                              // We can also merge this property by typing 
                                              // useState can't "add or merge" object properties but "setState" can do it

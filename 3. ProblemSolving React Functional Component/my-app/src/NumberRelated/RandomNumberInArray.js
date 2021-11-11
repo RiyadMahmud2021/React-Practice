@@ -13,18 +13,18 @@ const RandomNumberInArray = () => {
             value: Math.floor(Math.random() * 10) + 1 // So,item is the storing array 
         }])
     } 
-
-    return ( 
+                                          
+    return (                                                                    
         <Fragment>
             <button onClick={addItem}>Add a number</button>
-            <ul>
+            <ul> 
                 {items.map((item) => ( // Using map function for  react js [different from general map fun]
                                        // Item is passing variable for mapping
                         <li key={item.id}> {item.value} </li>  // Output will be stored as array
                 ))  
                 }                                                       
             </ul>   
-        </Fragment> 
+        </Fragment>   
     );
 }
 
@@ -32,10 +32,10 @@ export default RandomNumberInArray;
 
  
 
-//                     Notes: useState
+//                       Notes: useState
 // 1. The useState hook lets you add state to functional component
 // 2. In classes, the state is alwayes an object
 // 3. With the susState hook, the state doesn't have to be an object
 // 4. The useState hook returns an array with 2 elements
 // 5. The first element is the current value of the state 
-// 6. And the second element is a state setter function  
+// 6. And the second element is a state setter function   
